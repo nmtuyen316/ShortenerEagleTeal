@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const Web = express();
 const PORT = process.env.PORT;
@@ -9,5 +10,5 @@ Web.get('/',function(req,res){
 });
 
 Web.listen(PORT, ()=>{
-  console.log(`listen at https:/localhost:${PORT}`);
+  console.log(`listen at https://localhost:${PORT}`);
 });
