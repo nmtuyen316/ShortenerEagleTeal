@@ -1,3 +1,4 @@
+const clipb = require('clipboard');
 const form = document.getElementById("form");
 const linkInput = document.getElementById("link");
 const nameInput = document.getElementById("name");
