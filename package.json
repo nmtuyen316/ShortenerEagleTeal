@@ -7,8 +7,8 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["pio","eagle teal","eagle-teal"],
+  "author": "pio",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
